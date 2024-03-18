@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+:root{
+    --corprincipal: #d477cb;
+    --corsegundaria: #a6e0f3dc;
+    --cortitulo: #0e080c;
+
+}
+body{
+    background: var(--corsecundaria);
+
+}
+*{  margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+.cabecalho h1{
+    color: var(--cortitulo);
+}
+.cabecalho img{
+    max-width: 70px;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+}
